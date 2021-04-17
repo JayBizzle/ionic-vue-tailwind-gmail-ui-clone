@@ -1,0 +1,7 @@
+{
+  "name": "ionic-vue-tailwind-jit-starter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
