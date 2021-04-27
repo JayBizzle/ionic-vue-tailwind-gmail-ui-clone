@@ -23,3 +23,8 @@
 //
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+import 'cy-mobile-commands'
+
+Cypress.Commands.add('getByData', (selector, ...args) => {
+    return cy.get(`[data-cy=${selector}]`, ...args)
+})

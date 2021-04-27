@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "ionic-vue-tailwind-jit-starter",
+  "appName": "ionic-vue-tailwind-gmail-ui-clone",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "dist",

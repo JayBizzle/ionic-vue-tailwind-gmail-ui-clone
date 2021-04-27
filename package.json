@@ -1,5 +1,5 @@
 {
-  "name": "ionic-vue-tailwind-jit-starter",
+  "name": "ionic-vue-tailwind-gmail-ui-clone",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,15 +10,19 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@capacitor/android": "^2.4.7",
     "@capacitor/core": "2.4.7",
+    "@fontsource/roboto": "^4.2.3",
     "@ionic/vue": "^5.4.0",
     "@ionic/vue-router": "^5.4.0",
+    "@tailwindcss/line-clamp": "^0.2.0",
     "core-js": "^3.6.5",
     "vue": "^3.0.0-0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
     "@capacitor/cli": "2.4.7",
+    "@tailwindcss/postcss7-compat": "^2.1.0",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
@@ -32,8 +36,15 @@
     "@vue/compiler-sfc": "^3.0.0-0",
     "@vue/eslint-config-typescript": "^5.0.2",
     "@vue/test-utils": "^2.0.0-0",
+    "autoprefixer": "^9.8.6",
+    "cy-mobile-commands": "^0.2.1",
+    "cypress": "^6.8.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
+    "npm": "^7.10.0",
+    "postcss": "^7.0.35",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0"
   },
