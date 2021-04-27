@@ -10,6 +10,7 @@ An clone of the Gmail App built with Ionic, Vue and Tawlwind.
 * Compose view
 * Simple search
 * Side menu
+* Fully tested with Cypress
 
 ### To run
 
